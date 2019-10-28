@@ -1,0 +1,1 @@
+web: gunicorn TheFifthMoonArcade.wsgi --log-file -
