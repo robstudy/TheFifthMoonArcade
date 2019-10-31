@@ -1,0 +1,15 @@
+{% extends 'master.html' %}
+
+{% block title %}Register{% endblock %}
+
+{% block content %}
+<h2>Register</h2>
+
+<form method="post"  action="{% url 'confirm_registration' %}">
+	{% csrf_token %}
+	{{ UserRegistrationForm.as_p }}
+	<p style='color:red;'>{{note}}</p>
+	<button type="submit">Register</button>
+</form>
+
+{% endblock %}
