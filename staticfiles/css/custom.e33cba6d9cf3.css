@@ -1,0 +1,14 @@
+@font-face { font-family: Ferrum; src: url("/static/fonts/ferrum.26630cb45be3.otf"); } /* font from https://www.fontspace.com */
+@font-face { font-family: Tron; src: url("/static/fonts/TRON.bf1d23103065.TTF"); } /* font from https://www.fontspace.com */
+
+body {
+	background: rgb(12, 20, 31);
+	font-family: Tron;
+	color: rgba(111, 195, 223, .9);
+	text-shadow: -1px 0 rgb(230, 255, 255), 0 1px rgb(230, 255, 255), 1px 0 rgb(230, 255, 255), 0 -1px rgb(230, 255, 255);
+}
+
+a {
+	color: rgba(223, 116, 12, .9);
+	text-shadow: text-shadow: -1px 0 rgb(255, 230, 77), 0 1px rgb(255, 230, 77), 1px 0 rgb(255, 230, 77), 0 -1px rgb(255, 230, 77);
+}

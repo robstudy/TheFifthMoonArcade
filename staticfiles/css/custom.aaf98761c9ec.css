@@ -1,0 +1,13 @@
+@font-face { font-family: Ferrum; src: url("/static/fonts/ferrum.26630cb45be3.otf"); }
+
+body {
+	background: rgb(12, 20, 31);
+	font-family: Ferrum;
+	color: #BFC3DF;
+	text-shadow: -1px 0 #E6FFFF, 0 1px #E6FFFF, 1px 0 #E6FFFF, 0 -1px #E6FFFF;
+}
+
+a {
+	color: rgb(223, 116, 12);
+	text-shadow: text-shadow: -1px 0 rgb(255, 230, 77), 0 1px rgb(255, 230, 77), 1px 0 rgb(255, 230, 77), 0 -1px rgb(255, 230, 77);
+}
