@@ -3,7 +3,6 @@
 
 body {
 	background: rgb(12, 20, 31);
-	font-family: Tron;
 	color: rgba(111, 195, 223, .9);
 	text-shadow: -1px 0 rgb(230, 255, 255), 0 1px rgb(230, 255, 255), 1px 0 rgb(230, 255, 255), 0 -1px rgb(230, 255, 255);
 }

@@ -11,5 +11,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('django.contrib.auth.urls')),
     path('register/', userpanel.register_user, name="register"),
-    path('confirm_registration', userpanel.confirm_registration, name="confirm_registration"),
+    path('confirm_registration/', userpanel.confirm_registration, name="confirm_registration"),
 ] + static(settings.STATIC_URL, document_root = settings.STATIC_ROOT)

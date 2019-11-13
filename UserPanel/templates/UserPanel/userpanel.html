@@ -1,11 +1,15 @@
 {% extends 'master.html' %}
 
-{% block title %}User Panel {% endblock %}
+{% block title %}User Panel{% endblock %}
 
+{% load static %}
 {% block content %}
 
-<h1>Welcome {{ user.username }}</h1>
-
+<div id="panel"></div>
+<script type="text/babel"> 
+		const user = '{{ user.username }}'; 
+</script>
+<script type="text/babel" src="{% static 'js/userpanel.js' %}"></script>
 <p><a href="{% url 'logout' %}">logout</a>
 
 {% endblock %}
